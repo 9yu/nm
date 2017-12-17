@@ -1,11 +1,9 @@
 <?php 
 /*
-Plugin Name: Netease Music
-Plugin URI: https://fatesinger.com/74369
-Description: WordPress 音乐播放器，支持网易云音乐和虾米音乐。
-Version: 3.0.7
-Author: bigfa
-Author URI: https://fatesinger.com/
+Plugin Name: nm-cPlayer
+Description: WWordPress 163 Music Embed + cPlayer
+Version: 1.0
+Author: bigfa, Caringor
 */	
 
 define('NM_VERSION', '3.0.7');
@@ -18,9 +16,9 @@ require NM_PATH . '/functions/nmjson.php';
 
 require NM_PATH . '/functions/core.php';
 
-require NM_PATH . '/functions/embed.php';
+require NM_PATH . '/functions/embed2.php';
 
-require NM_PATH . '/functions/static.php';
+//require NM_PATH . '/functions/static2.php';
 
 require NM_PATH . '/functions/pr-list.php';
 
