@@ -35,7 +35,7 @@ function nm_generate_player( $source = null,$type = null, $id = null){
           'title': '{$data['title']}',
           'artist': '{$data['artist']}',
           'cover': '{$data['cover']}',
-          'file': 'https://9yu.eu/wp-admin/admin-ajax.php?action=nmjson&type=song_url&id={$data['id']}'
+          'file': '" . site_url() . "/wp-admin/admin-ajax.php?action=nmjson&type=song_url&id={$data['id']}'
         }]
     })
     </script></div>";
